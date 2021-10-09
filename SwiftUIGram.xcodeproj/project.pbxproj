@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B8342F82711E70100BB9862 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8342F72711E70100BB9862 /* Post.swift */; };
+		1B8342FA2711E72300BB9862 /* PostHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8342F92711E72300BB9862 /* PostHeader.swift */; };
+		1B8342FC2711E73000BB9862 /* PostContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8342FB2711E73000BB9862 /* PostContent.swift */; };
+		1B8342FE2711E73C00BB9862 /* InteractionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8342FD2711E73C00BB9862 /* InteractionBar.swift */; };
+		1B8343012711E79800BB9862 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8343002711E79800BB9862 /* ProfileImage.swift */; };
+		1B8343042711E7DA00BB9862 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8343032711E7DA00BB9862 /* Models.swift */; };
+		1B8343072711E84100BB9862 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8343062711E84100BB9862 /* PostViewModel.swift */; };
 		1BA5632D27104945001F7EA1 /* SwiftUIGramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5631A27104943001F7EA1 /* SwiftUIGramApp.swift */; };
-		1BA5632E27104945001F7EA1 /* SwiftUIGramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5631A27104943001F7EA1 /* SwiftUIGramApp.swift */; };
-		1BA5632F27104945001F7EA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5631B27104943001F7EA1 /* ContentView.swift */; };
-		1BA5633027104945001F7EA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5631B27104943001F7EA1 /* ContentView.swift */; };
+		1BA5632F27104945001F7EA1 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5631B27104943001F7EA1 /* Feed.swift */; };
 		1BA5633127104945001F7EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA5631C27104945001F7EA1 /* Assets.xcassets */; };
 		1BA5633227104945001F7EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA5631C27104945001F7EA1 /* Assets.xcassets */; };
+		1BA5633E2710496C001F7EA1 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5633D2710496C001F7EA1 /* ImageFetcher.swift */; };
+		1BA5634227104A06001F7EA1 /* MacOSUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5634127104A06001F7EA1 /* MacOSUIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B8342F72711E70100BB9862 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1B8342F92711E72300BB9862 /* PostHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeader.swift; sourceTree = "<group>"; };
+		1B8342FB2711E73000BB9862 /* PostContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContent.swift; sourceTree = "<group>"; };
+		1B8342FD2711E73C00BB9862 /* InteractionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionBar.swift; sourceTree = "<group>"; };
+		1B8343002711E79800BB9862 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		1B8343032711E7DA00BB9862 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1B8343062711E84100BB9862 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		1BA5631A27104943001F7EA1 /* SwiftUIGramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGramApp.swift; sourceTree = "<group>"; };
-		1BA5631B27104943001F7EA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1BA5631B27104943001F7EA1 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		1BA5631C27104945001F7EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BA5632127104945001F7EA1 /* SwiftUIGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA5632427104945001F7EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BA5632927104945001F7EA1 /* SwiftUIGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA5632B27104945001F7EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BA5632C27104945001F7EA1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1BA5633D2710496C001F7EA1 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		1BA5634127104A06001F7EA1 /* MacOSUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSUIImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +60,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B8342F52711E6E000BB9862 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				1B8342F62711E6E600BB9862 /* Post Components */,
+				1B8342F72711E70100BB9862 /* Post.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		1B8342F62711E6E600BB9862 /* Post Components */ = {
+			isa = PBXGroup;
+			children = (
+				1B8342FF2711E78C00BB9862 /* Header */,
+				1B8342FB2711E73000BB9862 /* PostContent.swift */,
+				1B8342FD2711E73C00BB9862 /* InteractionBar.swift */,
+			);
+			path = "Post Components";
+			sourceTree = "<group>";
+		};
+		1B8342FF2711E78C00BB9862 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				1B8342F92711E72300BB9862 /* PostHeader.swift */,
+				1B8343002711E79800BB9862 /* ProfileImage.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		1B8343022711E7D100BB9862 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B8343032711E7DA00BB9862 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B8343052711E83400BB9862 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B8343062711E84100BB9862 /* PostViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		1BA5631427104943001F7EA1 = {
 			isa = PBXGroup;
 			children = (
@@ -57,8 +117,11 @@
 		1BA5631927104943001F7EA1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1B8343052711E83400BB9862 /* View Models */,
+				1B8343022711E7D100BB9862 /* Models */,
+				1BA5633C27104957001F7EA1 /* Network Layer */,
+				1BA5633B27104952001F7EA1 /* Views */,
 				1BA5631A27104943001F7EA1 /* SwiftUIGramApp.swift */,
-				1BA5631B27104943001F7EA1 /* ContentView.swift */,
 				1BA5631C27104945001F7EA1 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -84,10 +147,36 @@
 		1BA5632A27104945001F7EA1 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				1BA56340271049F3001F7EA1 /* Helpers */,
 				1BA5632B27104945001F7EA1 /* Info.plist */,
 				1BA5632C27104945001F7EA1 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		1BA5633B27104952001F7EA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1BA5631B27104943001F7EA1 /* Feed.swift */,
+				1B8342F52711E6E000BB9862 /* Post */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1BA5633C27104957001F7EA1 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				1BA5633D2710496C001F7EA1 /* ImageFetcher.swift */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		1BA56340271049F3001F7EA1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1BA5634127104A06001F7EA1 /* MacOSUIImage.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +276,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BA5632F27104945001F7EA1 /* ContentView.swift in Sources */,
+				1B8343072711E84100BB9862 /* PostViewModel.swift in Sources */,
+				1BA5633E2710496C001F7EA1 /* ImageFetcher.swift in Sources */,
+				1B8343012711E79800BB9862 /* ProfileImage.swift in Sources */,
+				1BA5632F27104945001F7EA1 /* Feed.swift in Sources */,
 				1BA5632D27104945001F7EA1 /* SwiftUIGramApp.swift in Sources */,
+				1B8342FC2711E73000BB9862 /* PostContent.swift in Sources */,
+				1B8342FE2711E73C00BB9862 /* InteractionBar.swift in Sources */,
+				1B8343042711E7DA00BB9862 /* Models.swift in Sources */,
+				1B8342F82711E70100BB9862 /* Post.swift in Sources */,
+				1B8342FA2711E72300BB9862 /* PostHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BA5633027104945001F7EA1 /* ContentView.swift in Sources */,
-				1BA5632E27104945001F7EA1 /* SwiftUIGramApp.swift in Sources */,
+				1BA5634227104A06001F7EA1 /* MacOSUIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
