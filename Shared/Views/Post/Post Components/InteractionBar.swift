@@ -26,7 +26,7 @@ struct InteractionBar: View {
         HStack {
             Spacer()
                 .frame(width: 8)
-            LikeButton(with: viewModel)
+            LikeButton(viewModel: viewModel)
             Spacer()
                 .frame(width: 16)
             SendButton(viewModel: viewModel)
@@ -40,10 +40,6 @@ struct InteractionBar: View {
 
 struct LikeButton: View {
     @ObservedObject var viewModel: PostViewModel
-
-    init(with viewModel: PostViewModel) {
-        self.viewModel = viewModel
-    }
     
     var body: some View {
         Button(action: {

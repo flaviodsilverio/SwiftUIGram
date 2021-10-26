@@ -10,10 +10,6 @@ import SwiftUI
 struct PostHeader: View {
     var viewModel: PostViewModel
     
-    init(with viewModel: PostViewModel) {
-        self.viewModel = viewModel
-    }
-    
     var body: some View {
         HStack {
             Spacer()

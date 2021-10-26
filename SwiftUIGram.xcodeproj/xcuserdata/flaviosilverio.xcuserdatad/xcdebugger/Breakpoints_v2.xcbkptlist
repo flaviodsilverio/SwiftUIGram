@@ -3,4 +3,102 @@
    uuid = "3014F9D4-07B5-415D-B7E5-5A5F4E95451E"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A97E92F5-A696-4DDD-994A-4475F0AE8756"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Network Layer/ImageFetcher.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "make(requestWithURLString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE0FACF9-6C0B-4565-B61A-A7798193CAEC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Network Layer/ImageFetcher.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "make(requestWithURLString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3860730-F58E-4F3B-8907-6DB5ADD5678A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Network Layer/ImageFetcher.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchImage(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C3860730-F58E-4F3B-8907-6DB5ADD5678A - ba2edb1ee64463f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUIGram.RequestMaker.make(requestWithURLString: Swift.String, completion: (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;SwiftUIGram.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SwiftUIGram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/flaviosilverio/Desktop/SwiftUIGram/Shared/Network%20Layer/ImageFetcher.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "C3860730-F58E-4F3B-8907-6DB5ADD5678A - 4ecdab45645ff30c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SwiftUIGram.RequestMaker.make(requestWithURLString: Swift.String, completion: (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;SwiftUIGram.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SwiftUIGram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/flaviosilverio/Desktop/SwiftUIGram/Shared/Network%20Layer/ImageFetcher.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37A6E9CE-7D57-4AA9-B756-4B1F4C5CEFFD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Network Layer/ImageFetcher.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchImage(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

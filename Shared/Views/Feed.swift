@@ -28,6 +28,11 @@ struct PostList: View {
                 Post(with: PostViewModel(with: FeedItem.random()))
                 Post(with: PostViewModel(with: FeedItem.random()))
                 Post(with: PostViewModel(with: FeedItem.random()))
+                Post(with: PostViewModel(with: FeedItem.random()))
+                Post(with: PostViewModel(with: FeedItem.random()))
+                Post(with: PostViewModel(with: FeedItem.random()))
+                Post(with: PostViewModel(with: FeedItem.random()))
+
             }
             .navigationTitle("SwiftUI-Gram")
         }

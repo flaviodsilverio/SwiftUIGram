@@ -16,7 +16,7 @@ struct Post: View {
     
     var body: some View {
         VStack {
-            PostHeader(with: viewModel)
+            PostHeader(viewModel: viewModel)
             PostContent(with: viewModel)
             InteractionBar(with: viewModel)
         }

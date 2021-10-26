@@ -32,7 +32,7 @@ class PostViewModel: ObservableObject {
     }
     
     func fetchProfileImage() {
-        imageFetcher.fetchProfileImage(for: item.author.profileImgURL) { [weak self] image in
+        imageFetcher.fetchImage(for: item.author.profileImgURL) { [weak self] image in
             guard let image = image else {
                 return
             }
