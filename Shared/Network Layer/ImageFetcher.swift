@@ -35,8 +35,12 @@ public class ImagerParser {
 }
 
 public class RequestMaker {
-    let session = URLSession.shared
+    let session: URLSession
 
+    init(_ session: URLSession = URLSession.shared) {
+        self.session = session
+    }
+    
     func make(requestWithURLString string: String) -> AnyPublisher <Data, Error> {
         return session.dataTaskPublisher(for: URLRequest(url: URL(string: string)!)).tryMap { data, response in
             guard let httpResponse = response as? HTTPURLResponse, 200..<300 ~= httpResponse.statusCode else {
