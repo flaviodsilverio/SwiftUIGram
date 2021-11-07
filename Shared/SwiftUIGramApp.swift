@@ -11,7 +11,32 @@ import SwiftUI
 struct SwiftUIGramApp: App {
     var body: some Scene {
         WindowGroup {
-            Feed()
+            TabView {
+                Feed()
+                    .tabItem {
+                        Label("Feed", systemImage: "text.justify")
+                    }
+
+                Text("Discover Tab")
+                    .tabItem {
+                        Label("Discover", systemImage: "wand.and.rays")
+                    }
+
+                Text("Discover Tab")
+                    .tabItem {
+                        Label("Upload", systemImage: "plus.app.fill")
+                    }
+
+                Text("Discover Tab")
+                    .tabItem {
+                        Label("Saved", systemImage: "folder.fill")
+                    }
+
+                Text("Discover Tab")
+                    .tabItem {
+                        Label("Profile", systemImage: "person.fill")
+                    }
+            }
         }
     }
 }

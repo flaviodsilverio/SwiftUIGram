@@ -11,10 +11,9 @@ struct PostContent: View {
     @ObservedObject var viewModel: PostViewModel
     @State private var likeOpacity: Double = 0.0
     
-    var imageViewFrameSize = CGSize(width: UIScreen.main.bounds.width - 16, height: 400)
-    var animatableLikeView: Image = Image("likeFilled")
+    var animatableLikeView: Image = Image(systemName: ImageNames.Interactions.likeFilled.rawValue)
     
-    init(with viewModel: PostViewModel) {
+    init(viewModel: PostViewModel) {
         self.viewModel = viewModel
         
         viewModel.fetchImage()
@@ -26,7 +25,14 @@ struct PostContent: View {
                 AnyView(
                     ZStack {
                         Image(uiImage: image)
-                            .frame(width: 400, height: 400, alignment: .center)
+                            .resizable()
+                            .frame(
+                                minWidth: 0,
+                                maxWidth: .infinity,
+                                minHeight: 0,
+                                maxHeight: 400,
+                                alignment: .center)
+                            .aspectRatio(contentMode: .fill)
                         animatableLikeView
                             .resizable()
                             .frame(width: 200, height: 200, alignment: .center)

@@ -24,17 +24,21 @@ struct PostList: View {
     var body: some View {
         NavigationView {
             List {
-                Post(with: PostViewModel(with: FeedItem.random()))
-                Post(with: PostViewModel(with: FeedItem.random()))
-                Post(with: PostViewModel(with: FeedItem.random()))
-                Post(with: PostViewModel(with: FeedItem.random()))
-                Post(with: PostViewModel(with: FeedItem.random()))
-                Post(with: PostViewModel(with: FeedItem.random()))
-                Post(with: PostViewModel(with: FeedItem.random()))
-                Post(with: PostViewModel(with: FeedItem.random()))
+                Post(viewModel: PostViewModel(with: FeedItem.random()))
+                Post(viewModel: PostViewModel(with: FeedItem.random()))
+//                Post(viewModel: PostViewModel(with: FeedItem.random()))
+//                Post(viewModel: PostViewModel(with: FeedItem.random()))
+//                Post(viewModel: PostViewModel(with: FeedItem.random()))
+//                Post(viewModel: PostViewModel(with: FeedItem.random()))
+//                Post(viewModel: PostViewModel(with: FeedItem.random()))
+//                Post(viewModel: PostViewModel(with: FeedItem.random()))
 
             }
+            .listStyle(.grouped)
             .navigationTitle("SwiftUI-Gram")
+//            .font(.largeTitle)
         }
+        .navigationViewStyle(StackNavigationViewStyle())
+
     }
 }

@@ -7,20 +7,10 @@
 
 import SwiftUI
 
-fileprivate enum InteractionImageNames: String {
-    case bookmark
-    case bookmarkFilled
-    case like
-    case likeFilled
-    case send
-}
+
 
 struct InteractionBar: View {
     @ObservedObject var viewModel: PostViewModel
-    
-    init(with viewModel: PostViewModel) {
-        self.viewModel = viewModel
-    }
     
     var body: some View {
         HStack {
@@ -46,7 +36,7 @@ struct LikeButton: View {
                     viewModel.item.image.isLiked = true
                         })
         {
-            Image(viewModel.item.image.isLiked ? InteractionImageNames.likeFilled.rawValue : InteractionImageNames.like.rawValue)
+            Image(systemName: viewModel.item.image.isLiked ? ImageNames.Interactions.likeFilled.rawValue : ImageNames.Interactions.like.rawValue)
                             .resizable()
                             .frame(width: 25, height: 25, alignment: .center)
         }.buttonStyle(PlainButtonStyle())
@@ -61,9 +51,8 @@ struct BookmarkButton: View {
             viewModel.item.image.isFavourited = !viewModel.item.image.isFavourited
                         })
         {
-            Image(viewModel.item.image.isFavourited ? InteractionImageNames.bookmarkFilled.rawValue : InteractionImageNames.bookmark.rawValue)
-                            .resizable()
-                            .frame(width: 25, height: 25, alignment: .center)
+            Image(systemName: viewModel.item.image.isFavourited ? ImageNames.Interactions.bookmarkFilled.rawValue : ImageNames.Interactions.bookmark.rawValue)
+                            .font(.system(size: 20))
         }.buttonStyle(PlainButtonStyle())
     }
 }
@@ -76,14 +65,14 @@ struct SendButton: View {
             actionSheet()
                         })
         {
-            Image(InteractionImageNames.send.rawValue)
+            Image(systemName: ImageNames.Interactions.send.rawValue)
                             .resizable()
                             .frame(width: 25, height: 25, alignment: .center)
         }.buttonStyle(PlainButtonStyle())
     }
     
     
-    func actionSheet() {
+    private func actionSheet() {
         guard let urlShare = URL(string: viewModel.item.image.imageURL) else { return }
         let activityVC = UIActivityViewController(activityItems: [urlShare], applicationActivities: nil)
         UIApplication.shared.windows.first?.rootViewController?.present(activityVC, animated: true, completion: nil)

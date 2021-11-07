@@ -9,19 +9,16 @@ import SwiftUI
 
 struct Post: View {
     var viewModel: PostViewModel
-    
-    init(with viewModel: PostViewModel) {
-        self.viewModel = viewModel
-    }
-    
+
     var body: some View {
         VStack {
             PostHeader(viewModel: viewModel)
-            PostContent(with: viewModel)
-            InteractionBar(with: viewModel)
+            PostContent(viewModel: viewModel)
+            InteractionBar(viewModel: viewModel)
         }
         .frame(
-            width: UIScreen.main.bounds.width - 16
-        )
+            minWidth: 0,
+            maxWidth: .infinity,
+            alignment: .leading)
     }
 }
