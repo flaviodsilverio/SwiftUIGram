@@ -8,7 +8,6 @@
 
 /// There should be more View Models for the components, however since the goal of this project is to explore SwiftUI, this will be used mostly everywhere.
 import SwiftUI
-import Parse
 
 final class PostViewModel: ObservableObject {
     @Published var item: FeedItem
